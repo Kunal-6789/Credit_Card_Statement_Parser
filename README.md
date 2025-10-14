@@ -1,9 +1,9 @@
-## Credit Card Statement Parser :-
+```# Credit Card Statement Parser :-
 A full-stack PDF parser that extracts key information from credit card statements for multiple banks, with OCR support for scanned PDFs. Built with FastAPI (backend) and React (frontend).
 📄 Assignment Objective:
 Build a PDF parser that extracts 5 key data points from credit card statements across 5 major credit card issuers.
 
-# Features:
+## Features
 Support for 5 banks: HDFC, SBI, ICICI, Axis, American Express.
 
 Extracted data points:
@@ -12,10 +12,9 @@ Last 4 Digits of Card
 Billing Cycle
 Payment Due Date
 Total Amount Due
-Handles real-world PDFs.
-Fast, responsive frontend demo for uploading PDFs and viewing extracted data.
+Handles real-world PDFs. Fast, responsive frontend demo for uploading PDFs and viewing extracted data.
 
-# 🛠 Tech Stack:-
+## 🛠 Tech Stack
 Backend:
 Python 3.11+
 FastAPI
@@ -27,13 +26,13 @@ Pillow (image processing)
 Frontend:
 React
 JavaScript
-Simple upload interface with results table
 
-# 🏠 Home Page
+
+## 🏠 Home Page
 ![Home Screenshot](./frontend/public/statement_parser_ui.png)
 
-# 📁 Project Structure
-```
+
+## 📁 Project Structure
 credit-card-parser/
 │
 ├─ backend/
@@ -56,9 +55,9 @@ credit-card-parser/
 │  └─ hdfc_credit_card_statement.pdf  # Example HDFC PDF for testing/demo
 │
 └─ README.md
-```
 
-# ⚡Features
+
+## ⚡Features
 
 PDF Parsing
 Extracts text using pdfplumber.
@@ -73,7 +72,7 @@ Highlights Payment Due Date as per deadline.
 Returns data in structured JSON.
 
 
-# 🚀 How to Run
+## 🚀 How to Run
 Backend:
 cd backend
 
@@ -95,20 +94,4 @@ npm run dev
 Frontend will run at: http://localhost:5173
 
 Upload PDF and see results.
-
-# 💡Example Output
-
-Uploaded PDF: hdfc_credit_card_statement.pdf
-
-Result:
-{
-  "bank": "hdfc",
-  "data": {
-    "issuer": "HDFC Bank",
-    "last4": "7890",
-    "billing_cycle": "01 Sep 2025 - 30 Sep 2025",
-    "due_date": "20 Oct 2025",
-    "total_due": "₹18,945.50",
-    "ocr_used": false
-  }
-}
+```
