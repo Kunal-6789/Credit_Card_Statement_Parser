@@ -33,6 +33,7 @@ Simple upload interface with results table
 ![Home Screenshot](./frontend/public/statement_parser_ui.png)
 
 # 📁 Project Structure
+```
 credit-card-parser/
 │
 ├─ backend/
@@ -55,6 +56,7 @@ credit-card-parser/
 │  └─ hdfc_credit_card_statement.pdf  # Example HDFC PDF for testing/demo
 │
 └─ README.md
+```
 
 # ⚡Features
 
