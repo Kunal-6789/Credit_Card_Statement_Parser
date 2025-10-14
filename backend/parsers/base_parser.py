@@ -1,4 +1,3 @@
-# parsers/base_parser.py
 from typing import Dict
 
 class BaseParser:

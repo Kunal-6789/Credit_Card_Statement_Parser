@@ -1,4 +1,3 @@
-# utils/detect_bank.py
 import re
 
 def detect_bank_from_text(text: str) -> str:

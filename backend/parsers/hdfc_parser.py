@@ -1,4 +1,3 @@
-# parsers/hdfc_parser.py
 import re
 from .base_parser import BaseParser
 
@@ -33,7 +32,6 @@ class HDFCParser(BaseParser):
         out["due_date"] = m.group(1) if m else None
 
         # --- Total amount due ---
-        # Try multiple patterns
         m = re.search(r"Total Amount Due\s*[:\-]?\s*([₹]?[0-9,]+\.\d{2})", clean_text, re.IGNORECASE)
         if not m:
             m = re.search(r"Total Due\s*[:\-]?\s*([₹]?[0-9,]+\.\d{2})", clean_text, re.IGNORECASE)
