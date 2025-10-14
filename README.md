@@ -1,5 +1,6 @@
-```# Credit Card Statement Parser :-
+# Credit Card Statement Parser :-
 A full-stack PDF parser that extracts key information from credit card statements for multiple banks, with OCR support for scanned PDFs. Built with FastAPI (backend) and React (frontend).
+
 📄 Assignment Objective:
 Build a PDF parser that extracts 5 key data points from credit card statements across 5 major credit card issuers.
 
@@ -33,6 +34,7 @@ JavaScript
 
 
 ## 📁 Project Structure
+```
 credit-card-parser/
 │
 ├─ backend/
@@ -55,6 +57,7 @@ credit-card-parser/
 │  └─ hdfc_credit_card_statement.pdf  # Example HDFC PDF for testing/demo
 │
 └─ README.md
+```
 
 
 ## ⚡Features
@@ -94,4 +97,3 @@ npm run dev
 Frontend will run at: http://localhost:5173
 
 Upload PDF and see results.
-```
